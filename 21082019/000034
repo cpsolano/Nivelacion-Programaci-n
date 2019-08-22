@@ -1,0 +1,31 @@
+a = [3,10,-1] #se define una lista
+
+a.append(1) #se agrega un 1 al final de la lista
+print a #imprime la lista
+
+a.append("hello") #se le agrega hello a la lista
+print a #imprime la lista
+
+a.append([1,2]) #se le agrega una lista a la lista
+
+a.pop() #se elimina el ultimo valor de la lista
+
+a.pop() #se elimina el ultimo valor de la lista
+
+print a[3] #imprime el 4to valor de la lista
+
+a[0] = 100 #se reemplaza el primer el primer valaor de la lista por 100
+
+print a #se imprime la lista
+
+b = ["banana", "apple", "microsoft"] #se crea nueva lista 
+
+temp = b[0] #se crea nueva variable con el valor de banana
+b[0] = b[2] #se reemplaza en valor de la primera casilla por el de microsoft
+b[2] = temp #se reemplaza el valor de la tercera casilla por el valor de temp que es banana
+
+print b #se imprime la lista
+
+b[0], b[2] = b[2], b[0] #se reemplaza el valor de las dos variables del lado izq del = a las del lado derecho
+
+print b #se imprime la lista nueva
